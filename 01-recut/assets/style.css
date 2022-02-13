@@ -791,6 +791,7 @@ video {
 .prose img {
 	margin-top: 2em;
 	margin-bottom: 2em;
+	width: 100%;
 }
 
 .prose video {
@@ -1364,6 +1365,7 @@ video {
 
 .max-w-md {
 	max-width: 28rem !important;
+	/* max-width: min(28rem, 100%) !important; */
 }
 
 .max-w-80 {
